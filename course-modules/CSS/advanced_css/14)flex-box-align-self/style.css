@@ -1,0 +1,26 @@
+/* Com o alignself eu consigo mover APENAS UM ELEMENTO */
+.container{
+    display: flex;
+    background-color: darkgrey;
+    height: 400px;
+    color: white;
+}
+
+.r1{
+    background-color: red;
+}
+
+.r2{
+    background-color: blue;
+    align-self: flex-end;
+}
+
+.r3{
+    background-color: green;
+}
+
+.rect{
+    width: 150px;
+    height: 150px;
+}
+

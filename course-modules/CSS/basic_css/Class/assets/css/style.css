@@ -1,0 +1,15 @@
+p {
+    color: red;
+}
+
+body{
+    background-image: url(../img/green-day-thumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Cobrir tudo */
+    background-attachment: fixed; /* Tem ouras propriedades */
+    background-position: center;
+}
+
+.texts{
+    background-image: url(../img/linking.jpg);
+}

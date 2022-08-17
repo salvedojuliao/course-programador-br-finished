@@ -1,0 +1,101 @@
+/* Unidades fixas */
+#cm{
+    width:1cm;
+    height:1cm;
+    background-color: blue;
+}
+
+#mm{
+    width:5mm;
+    height:5mm;
+    background-color: red;
+}
+
+#in{
+    width:1in;
+    height:1in;
+    background-color: yellow;
+}
+
+#px{
+    width:10px;
+    height:10px;
+    background-color: green;
+}
+
+#pt{
+    width:10pt;
+    height:10pt;
+    background-color: orange;
+}
+
+#pc{
+    width:1pc;
+    height:1pc;
+    background-color: #fc008a;
+}
+
+
+
+/* Unidades Relativas */
+
+/* O tamanho de um texto por padrão é de 16px; */
+
+
+/* ---------------- Unidade EM ----------------*/
+
+.container{
+    font-size: 20px;
+    width: 300px;
+    background-color: red;
+}
+
+.inside{
+    font-size: 2em; /* o EM é igual o tamanho da propriedade da fonte do pai (É UMA UNIDADE ATRELADA AO TAMANH DA FONTE) */
+    width: 1em;
+    background: blue;
+}
+
+
+/* ---------------- Unidade REM ----------------*/
+
+.container2{
+    font-size: 20px;
+    width: 200px;
+}
+
+.inside2{
+    font-size: 1rem; /* o REM faz referência ao tamanho da fonte do elemento raiz, que no caso é o tamanho da font do html */
+}
+
+
+
+/* ---------------- Unidades VW, VH, VMIN, VMAX and %----------------*/
+/* A unidade VW é referente a largura da janela, 1VW = 1% da largura da janela */
+/* A unidade VH é referente a altura  da janela, 1VH = 1% da altura da janela */
+/* A unidade VMIN é referente a menor dimensão (Largura ou altura) */
+/* A unidade VMAX é referente a maior dimensão (Largura ou altura) */
+/* A unidade % é referente sempre ao tamanho do elemnto pai */
+
+.container3{
+    width: 50vw;
+    background: red;
+}
+
+.inside3{
+    width: 100px;
+    background: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+div, header{ /* Seleciona todos os elementos */
+    /* background-color: green; */
+}
+
+/* div > p =   Pego todos os parágrafos dentro da div
+
+#divID > p = Pego todos os parágrafos que estão ÚNICAMENTE dentro da div com idID */
+
+/* divID + p = Pego o elemento que está LOGO APÓS o divID */
+
+/* header ~ p{
+    background-color: blue;
+    Pega todos os parágrafos depois do header
+} */
+
+[width]{
+    background-color: yellow;
+}
+[tittle^="O"]{
+    background-color: rgb(31, 133, 134);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <title>Página de Sorteio</title>
+</head>
+
+<body id="carregar"> <!-- <body id="carregar"></body> -->
+
+    <main>
+        <secttion id="controle">
+
+            <div id="sorteioNomes">
+                <h1>Sorteador de nomes:</h1>
+                <p>Adicione o nome dos participantes que serão sorteados</p>
+                <input id="valorInput"type="text" placeholder="Digite o nome">
+
+                <div id="botoesDiv">
+                    <button class="botoes" id="adicionar">Adicionar</button>
+                    <button class="botoes" id="limpar">Limpar</button>
+                    <button class="botoes" id="sortear">SORTEAR</button>
+                </div>
+            </div>
+
+            <div class="sortudoNome">
+                <h2>Resultado do sorteio:</h2>
+                <p id="nomeSortudo"></p>
+            </div>
+        </secttion>
+
+        <secttion id="lista">
+            <h2>Lista de nomes adicionados:</h2>
+            <ol id="listaDeNomes"> </ol>
+        </secttion>
+    </main>
+
+</body>
+<script src="assets/script.js"></script>
+</html>

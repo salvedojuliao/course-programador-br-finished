@@ -1,0 +1,36 @@
+/* Flexbox é uma caixa flexível, faz com que os elementos sejam flexíveis ao elemento pái deles. Ou seja, é possível fazer um design que seja flexível a qualquer tipo de tela */
+/* 
+Tem como juntar duas propriedadades e juntar numa linha só:
+flex-direction: row;
+flex-wrap: wrap;
+flex-flow: flex-direction flex-wrap; ou seja, tem como juntar os dois em um só, exemplo:
+flex-flow: row wrap;  
+APENAS PARA FLEX-DIRECTION E FLEX-WRAP
+*/
+
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+
+    background-color: darkgrey;
+    height: 400px;
+    color: white;
+}
+
+.r1{
+    background-color: red;
+}
+
+.r2{
+    background-color: blue;
+}
+
+.r3{
+    background-color: green;
+}
+
+.rect{
+    width: 150px;
+    height: 150px;
+}

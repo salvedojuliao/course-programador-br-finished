@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: #48C5CE;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.title{
+    font-size: 26px;
+}
+
+section{
+    padding: 20px;
+    background-image: url('../img/people.jpg');
+    background-size: cover;
+    overflow: hidden; /*Buguei aqui*/
+    /* Quando usamos o float o elemento "perde" sua altura, na verdade o pai dele não consegue mais ler essa altura porque o elemento estaria flutuando. Se alterarmos o overflow, poderia ser por exemplo auto no lugar do hidden, o pai volta a ler a altura do float. O Igor demonstra isso na aula de float, é uma boa dar uma revisada lá. */
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: #fff;
+    background-color: #48C5CE;
+    font-weight: bold;
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('../img/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+    /* background-position: calc(100% - 10px) center; */
+    /* Um outro jeito de usar */
+}
+
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+
+.picture{
+    width: 160px;
+}
+
+.description{
+    color: #fff;
+    display: inline-block;
+    text-align: left;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+
+.description h3{
+    font-size: 24px;
+}
+
+@media (max-width: 630px){
+    .formContainer{
+        max-width: 400px;
+        margin: auto;
+        float: none;
+    }
+    
+}

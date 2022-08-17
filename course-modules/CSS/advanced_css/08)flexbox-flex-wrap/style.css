@@ -1,0 +1,29 @@
+/* Flexbox é uma caixa flexível, faz com que os elementos sejam flexíveis ao elemento pái deles. Ou seja, é possível fazer um design que seja flexível a qualquer tipo de tela */
+
+.container{
+    /* display block faz com que o elemento tetne ocupar todo o espaço horizontal disponível e no vertical o espaço necessário para simplesmente caber o conteúdo dele */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Quando eu uso flex-wrap, ele tenta manter o tamanho (larguta e altura) dos filhos a todo cutso, e pode ser que vaze, para evitar isso é só tirar o heigth do filho */
+    background-color: darkgrey;
+    height: 400px;
+    color: white;
+}
+
+.r1{
+    background-color: red;
+}
+
+.r2{
+    background-color: blue;
+}
+
+.r3{
+    background-color: green;
+}
+
+.rect{
+    width: 300px;
+    height: 100px;
+}

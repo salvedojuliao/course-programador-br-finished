@@ -1,0 +1,118 @@
+/* General + Reset */
+*{
+    padding: 0; margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+    font-family: 'Overpass', sans-serif;
+    list-style: none;
+}
+
+/* body */
+body{
+    background-image: url('../assets/imgs/bg-body.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* .main */
+main{
+    width: 1440px;
+    height: 100vh;
+    margin: auto;
+    /* border: solid 1px rgb(148, 230, 17); */
+    background: rgba(0, 0, 0, 0.276);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+/* ID: controle e lista */
+#controle, #lista{
+    /* border: solid #fff 1px; */
+    width: 45%;
+}
+
+/* ID: sorteioNomes */
+#sorteioNomes{
+    /* border: solid rgb(37, 219, 16) 1px; */
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.392);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 60px 20px;
+}
+
+#sorteioNomes h1{
+    font-size: 40px;
+}
+
+#sorteioNomes p{
+    margin-bottom: 10px;
+}
+
+/* ID: valorInput */
+#valorInput{
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.886);
+    border-radius: 10px;
+}
+
+/* ID: botoes */
+#botoesDiv{
+    /* border: solid rgb(33, 27, 200) 1px; */
+    width: 100%;
+    margin-top: 6px;
+}
+
+/* classe: botoes */
+.botoes{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* Botoes Estilos:*/
+#adicionar{
+    background-color: rgb(255, 255, 255);
+}
+
+#limpar{
+    background-color: rgb(255, 143, 143);
+}
+
+#sortear{
+    background-color: rgb(1, 187, 42);
+}
+
+.sortudoNome{
+    /* border: solid rgb(37, 219, 16) 1px; */
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.392);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 150px 20px;
+    margin-top: 20px;
+}
+
+
+/* ID: resultados */
+#lista{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.276);
+}
+
+#lista p{
+    color: #fff;
+}

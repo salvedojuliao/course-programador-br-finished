@@ -1,0 +1,52 @@
+/* Pseudo elementos são comandos que permitem que eu modifique o estilo de apenas uma parte dos elementos */
+/* Eu utilozo o :: para indicar que vou usar um pseudo elemento */
+
+p::first-line{
+    color: red;
+}
+
+p::first-letter{
+    color: green;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+h1::first-letter{
+    font-size: 40px;
+    color: blue;
+}
+
+li{
+    list-style: none;
+    /* list-style-image: url(./spider-icon.png);
+    margin-left: 200px; */
+}
+
+
+li::before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(./spider-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* Permite que eu coloque um elemento antes do conteúdo */
+li::after{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(./spider-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p::selection{
+    background-color: yellow;
+    color: orange;
+}
+/* Toda vez que eu selecionar vai acontecer isso */

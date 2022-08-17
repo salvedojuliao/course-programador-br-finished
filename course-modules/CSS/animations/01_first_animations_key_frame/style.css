@@ -1,0 +1,30 @@
+/*
+    Passos para criar animação:
+    Criar animação
+    Dizer qual é a propriedade vou alterar
+    Quanto tempo vai levar do estado A p/ B
+*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+@keyframes changeColor {
+    from {background-color: red;}
+    to {background-color: green;}
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 20px;
+    animation-name: changeColor;
+    animation-duration: 3s;
+}
+
+
+
+

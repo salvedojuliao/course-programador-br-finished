@@ -1,0 +1,27 @@
+.container{
+    width: 640px;
+    height: 360px;
+    position: relative;
+    /* Lembrando, o pai precisa estar como 'relative' para que os itens filhos possam ser absolute, assim eu posso mover eles */
+}
+
+.video{
+    width: 100%;
+}
+
+.controle{
+    width: 100%;
+    height: 100%;
+    position: absolute; /* O pai controle é o 'container', logo '.controle' vai agir conforme ele*/
+    top: 0;
+    text-align: center;
+}
+
+.btn{
+    width: 50px;
+    padding: 10px;
+    position: relative;
+    top: 100%;
+    transform: translateY(-100%);
+}
+

@@ -1,0 +1,27 @@
+/* A Margin distancia os elementos a partir de suas bordas (pra fora) */
+/* O Padding também dá distanciamneto, mas a distância ocorre do elemento  pra dentro */
+/* O Margin  é a distância pra fora e o Padding é a distâncai pra dentro */
+
+#base{
+    height: 10px;
+    background: red;
+}
+
+#content{
+    background-color: blue;
+    color: white;
+    /* margin-top: 10px;
+    margin-left: 10px; */
+    padding-top: 10px;
+}
+
+
+
+/* Borda */
+
+.borda{
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+}

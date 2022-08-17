@@ -1,0 +1,8 @@
+img{
+    width: 420px;
+    /* transform: rotate(45deg); */
+
+    /* transform: scale(0.5);  */
+    /* Modiviga a escala tanto na vertical, quanto noa horizontal */
+    transform: skew(20deg, 8deg);
+}

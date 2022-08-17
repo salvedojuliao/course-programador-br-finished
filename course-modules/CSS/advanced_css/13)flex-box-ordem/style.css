@@ -1,0 +1,29 @@
+/* O padrão é ordem 0, logo se eu colocar order 1 para um dos três elementos, ele será o último a aparecer*/
+
+.container{
+    display: flex;
+    background-color: darkgrey;
+    height: 400px;
+    color: white;
+}
+
+.r1{
+    order: 3;
+    background-color: red;
+}
+
+.r2{
+    order: 1;
+    background-color: blue;
+}
+
+.r3{
+    order: 2;
+    background-color: green;
+}
+
+.rect{
+    width: 150px;
+    height: 100px;
+}
+

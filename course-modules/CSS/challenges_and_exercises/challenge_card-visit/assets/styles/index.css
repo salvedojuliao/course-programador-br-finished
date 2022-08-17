@@ -1,0 +1,24 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.general{
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    background-image: url(../img/backgorund.png);
+    background-size: cover;
+    font-family: 'Roboto Slab', serif, 'Arial';
+}
+
+
+a{text-decoration: none;color: black;}
+
+h2{text-indent: 45px;} 
+
+#img1 {list-style-image: url(../img/Insta.png);list-style-position: inside;} 
+
+#img2 {list-style-image: url(../img/Twitter.png);list-style-position: inside;} 
+
+#img3{list-style-image: url(../img/Youtube.png);list-style-position: inside;} 

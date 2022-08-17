@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-content alinha AS LINHAS em relação ao container (o pai) 
+    É como se juntasse*/
+    /* align-items: flex-end; */
+    /* align-items alinha O ITEM em ralação a cada uma das linhas */
+    align-content: flex-start; /* Eu noramlemnte uso o align-content com o wrap*/
+    /* o padrão é strecth*/
+
+  
+    background-color: darkgrey;
+    height: 290px;
+    color: white;
+}
+
+.r1{
+    background-color: red;
+}
+
+.r2{
+    background-color: blue;
+}
+
+.r3{
+    background-color: green;
+}
+
+.rect{
+    width: 260px;
+    height: 100px;
+}

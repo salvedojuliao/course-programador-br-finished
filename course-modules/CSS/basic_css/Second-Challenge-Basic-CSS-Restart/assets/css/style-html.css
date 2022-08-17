@@ -1,0 +1,45 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Mali', cursive;
+    background-color: #000;
+}
+
+.general {
+    background-image: url(../imgs/background.png);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.general h1{
+    margin-left: 50px;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+.icons ul{
+    margin-left: 10px;
+    line-height: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    list-style-position: inside;
+    text-decoration: none;
+}
+
+.icons ul a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+}
+
+.icons a:hover{color: #0b19da;}
+.icons ul #inst{list-style-image:url("../imgs/Insta.png");}
+.icons ul #yt{list-style-image:url("../imgs/Youtube.png");}
+.icons ul #twt{list-style-image:url("../imgs/Twitter.png");}
+.icons ul #yt{list-style-image:url("../imgs/Youtube.png");}

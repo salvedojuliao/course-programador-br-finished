@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+/* .container{
+    width: 100%;
+    background-color: blue;
+} */
+
+/* Obs: inline-block inlcue espaçamento de 4px */
+/* .primeira{
+    display: inline-block;
+    margin-right: -4px;
+    margin-bottom: -4px;
+    width: calc(100% - 300px);
+    height: 300px;
+    background-color: yellow;
+}
+
+.segunda{
+    margin-right: -4px;
+    margin-bottom: -4px;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+} */
+
+.primeira{
+    width: calc(100% - 60px);
+    /* Ou seja em qualquer tela sempre sera 100% - os 30px */
+    height: 100px;
+    background-color: blue;
+    margin: auto;
+}

@@ -1,0 +1,52 @@
+.container {
+    background-color: #ccc;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    /* colum | row-reverse | colum-revers | */
+
+    flex-wrap: nowrap;
+    /* Define se terá uma quebra de linha ou não */
+
+    /* flex-flow: row nowrap; */
+    /* Uma forma resumida de escrever o flex-direction e o flex-wrap */
+
+    justify-content: flex-start;
+    /* Serve para fazer um alihamento horizontal */
+    /* flex-start: alinha os itensd a esquerda para a direita */
+    /* flex-end: alinha os itens da direita para esquerda */
+    /* center: alinha ao centro */
+    /* Space-between: com espaçamento entre os itens */
+    /* Space-around: espaçamento em tudo */
+
+    align-items: stretch;
+    /* Faz o alinhamento vertical*/
+    /* stretch = creça normalmente */
+    /* baseline = alinhamento vertical baseado no conteúdo de cada item */
+
+    align-content: flex-start;
+    /* Faz o alinhamento vertical, quando os itens estiver com wrap */
+  
+}
+
+.item {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    height: 30px;
+
+    flex-grow: 1;
+    /* está relacionado com a largura de todos os elementos dentro do item */
+    flex-basis: 300px;
+    /* Largura inicial dos itens */
+    flex-shrink: 1;
+    /* Relacionado com a capacidade de redução dos itens */
+    /* flex: 1 1 300px; */
+    /* forma reduzida de escrever os valores de cima */
+}
+
+.article-01 {flex-shrink: 3;}
+.article-02 {}
+.article-03 {}
+.article-04 {}

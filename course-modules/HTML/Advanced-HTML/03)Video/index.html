@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video</title>
+</head>
+<body>
+    <video preload="none" controls autoplay muted loop src="video.mp4" width="540" poster="imgs/img2.jpg"></video>
+    <!-- O padrão é controles escondidos, por isso se eu por controls aparece os botões -->
+    <!-- Autoplay é o atributo que quando a página carregar, o vídeo vai começar, mas ele só funcion sem som -->
+    <!-- Ou seja, se eu quiser usar o autoplay, eu tenho que colocar o muted -->
+    <!-- o loop faz o vídeo começar de novo quando ele acabar -->
+    <!-- o poster é a thumbnail do video -->
+    <!-- o preload tem 'auto' 'metadata' ou 'none'
+        auto: quando a página terminar de carregar, o vídeo já vai começar a carregar na memória do navegador
+        metadata: quando a página terminar de carregar, o video vai carregar só alguns dados (coisas que vem com o arquivo);
+        none: só carrega quando eu der play;
+    -->
+    <!-- Só vai em autoplay se tiver muted (em alguns navegadores) -->
+    <!-- preload junto com autoplay é ignorado -->
+  
+
+    <script src="script.js"></script>
+</body>
+
+</html>

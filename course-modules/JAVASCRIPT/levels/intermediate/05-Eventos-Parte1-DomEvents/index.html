@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Eventos - Parte 1 - DOM Events</title>
+    <style>
+        div{
+            padding: 20px;
+            font-size: 2rem;
+            background-color: cornflowerblue;
+            color: #fff;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+<!-- O onclick é um aributo -->
+<h1 class="Teste">Testo que será mudado pela função changeH1Tittle()</h1>
+<h1 onclick="console.log('Teste de onclick')">Clique em mim</h1>
+<h2 onclick="h1Click()">Clique em mim (Com função)</h2>
+<h3 onclick="console.log(this)">Clique em mim (Com this)</h3>
+<h4 onclick="console.log(this.style.color = 'red')">Clique em mim (Com this.style.color)</h4>
+
+<br>
+
+<p>Função  <b>changeH1</b></p>
+<input type="text" onchange="changeH1()"> <!-- Toda vez que eu tirar o foco(Cursor) do input ele fará algo-->
+
+<br>
+
+<p>Função  <b>changeH1Title</b></p>
+<input id="texto" type="text" onchange="changeH1Tittle()"> 
+
+<br>
+
+<p>Usando o  <b>this na função</b></p>
+<input id="texto" type="text" onchange="changeH1withThis(this)"> 
+<!--
+Eu uso this num evento que envolve esse elemento (Esse input, logo eu uso o this como argumento)
+- E lá na função changeH1withThis eu adiciono qualquer nome como argumento, mas é um boa prática colocar
+input => changeH1withThis(input), pois fica mais fácil de reconhecer
+-->
+
+
+<p>Usando o evento <b>oninput</b></p>
+<input id="texto" type="text" oninput="changeH1withThis(this)"> 
+<!--Quando eu digito ele atualiza automaticamente-->
+
+<br>
+
+<p>Usando o evento <b>onclick</b></p>
+<div onclick="hideH1()">
+    Click
+</div>
+
+</body>
+</html>

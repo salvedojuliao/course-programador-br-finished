@@ -1,0 +1,42 @@
+/* Antes tava sendo usado apenas o elemento pai 
+Agora será usado o elemento filho  */
+
+.container{
+    display: flex;
+    
+
+    background-color: darkgrey;
+    max-width: 800px;
+    height: 290px;
+    color: white;
+}
+
+/* Os retângulos só se adaptam porque existe uma propriedade 'flex-shrink' -> O padrão é 1 e por isso eles diminuem */
+
+/* O padrão do flex-grow é 0*/
+/*
+shrink é encolher
+grow é aumentar/crescer
+*/
+
+.r1{
+    background-color: red;
+    /* flex-shrink: 0; */
+    flex-grow: 1;
+}
+
+.r2{
+    background-color: blue;
+    flex-grow: 1;
+}
+
+.r3{
+    background-color: green;
+    flex-grow: 1; /* Seu colocar isso em todos, posso reomover o width do .rect*/
+}
+
+.rect{
+    /* width: 200px; */
+    height: 100px;
+}
+
